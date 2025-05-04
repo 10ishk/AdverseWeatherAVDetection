@@ -1,0 +1,18 @@
+
+train: C:/Users/ATbru/Downloads/CODE/AI_ML_DL/Autonomus_Vehicles/dataset/images/train
+val: C:/Users/ATbru/Downloads/CODE/AI_ML_DL/Autonomus_Vehicles/dataset/images/val
+nc: 1
+names: ['car']
+# Augmentation parameters
+hsv_h: 0.015  # Hue augmentation (fraction)
+hsv_s: 0.7    # Saturation augmentation (fraction, increased to simulate weather effects)
+hsv_v: 0.4    # Value (brightness) augmentation (fraction, increased for contrast)
+degrees: 0.0  # Image rotation (+/- degrees)
+translate: 0.1  # Image translation (+/- fraction)
+scale: 0.5    # Image scale (+/- gain)
+shear: 0.0    # Image shear (+/- degrees)
+perspective: 0.0  # Image perspective (+/- fraction)
+flipud: 0.0   # Image flip up-down (probability)
+fliplr: 0.5   # Image flip left-right (probability)
+mosaic: 1.0   # Mosaic augmentation (probability)
+mixup: 0.0    # Mixup augmentation (probability)

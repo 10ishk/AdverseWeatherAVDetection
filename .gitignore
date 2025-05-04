@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.venv/
+venv/
+.ML/
+../.ML/
+
+# Dataset and model outputs
+bdd100k/
+dataset/
+runs/
+yolov5/
+archive.zip
+filter_bdd100k.py
+rr.jpeg
+*.pt 
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+*.log
+*.tmp
+.DS_Store
