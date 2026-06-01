@@ -1,0 +1,21 @@
+project_name: adverse-weather-av-detection
+model: yolov5s
+image_size: 416
+batch_size: 2
+epochs: 10
+confidence_threshold: 0.4
+weather_filter:
+  - rainy
+  - foggy
+  - snowy
+classes:
+  - car
+dataset:
+  bdd_root: /path/to/bdd100k
+  output_dir: dataset
+  max_train: 1000
+  max_val: 200
+hardware_used_in_recorded_run:
+  gpu: NVIDIA GeForce RTX 3050 Laptop GPU
+  cuda: 11.8
+  note: Hardware may differ when reproducing the experiment.

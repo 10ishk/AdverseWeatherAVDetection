@@ -2,9 +2,10 @@ train: dataset/images/train
 val: dataset/images/val
 
 nc: 1
-names: ['car']
+names:
+  - car
 
-# YOLOv5 augmentation parameters used during training.
+# Weather-oriented YOLOv5 augmentations.
 hsv_h: 0.015
 hsv_s: 0.7
 hsv_v: 0.4
